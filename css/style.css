@@ -1,18 +1,23 @@
 /*
 Color Palette
 https://coolors.co/b09e99-fee9e1-0d1b2a-64b6ac-c0fdfb
-#B09E99 Beige
-#FEE9E1 Light Beige
-#0D1B2A Navy Blue
-#64B6AC Dark Teal
-#C0FDFB Light Teal
+#FFFD82 Yellow
+#EF8354 Orange
+#EE4B6A Pink
+#DF3B57 Dark Pink
+#0F7173 Teal
+
+
+GitHub Link https://github.com/williamshana90/Williams-css-portfolio/commit/5452a1873339fa9b5cf8e3e567351d3a607de293
 */
+
 
 
 /* Global Styles
 --------------------------------*/
 body {
     color: #343434;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
 width: 300px;
@@ -26,31 +31,33 @@ a:hover {
 /*Profile
 --------------------------------*/
 header {
-    background: #0D1B2A;
-    color: whitesmoke;
+    background: #0F7173;
+    color: #FFFD82;
     padding: 8px;
 }
 
 /*Projects
 --------------------------------*/
 .projects {
-    background: #FEE9E1;
+    background: #FFFD82;
     padding: 10px;
+    color: #0F7173
 }
 .projects .btn {
     color: whitesmoke;
-    background: #64B6AC;
+    background: #0F7173 ;
     padding: 8px;
     border-radius: 4px;
 }
 .projects .btn:hover {
-    background: rgb(100, 182, 172, 80%);
+    background: rgb(15,113,115,80%);
 }
 
 /*Education
 --------------------------------*/
 .education {
-    background: #C0FDFB;
+    background: #66A4A5;
+    color: whitesmoke;
     padding: 8px;
 }
 
@@ -58,8 +65,8 @@ header {
 /*Contact Info
 --------------------------------*/
 footer {
-    background: #64B6AC;
-    color: whitesmoke;
+    background: #0F7173;
+    color: #FFFD82;
     padding: 8px;
 }
  
