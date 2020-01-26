@@ -1,0 +1,65 @@
+/*
+Color Palette
+https://coolors.co/b09e99-fee9e1-0d1b2a-64b6ac-c0fdfb
+#B09E99 Beige
+#FEE9E1 Light Beige
+#0D1B2A Navy Blue
+#64B6AC Dark Teal
+#C0FDFB Light Teal
+*/
+
+
+/* Global Styles
+--------------------------------*/
+body {
+    color: #343434;
+}
+img {
+width: 300px;
+}
+a {
+    color: #0D1B2A;
+}
+a:hover {
+    text-decoration: none;
+}
+/*Profile
+--------------------------------*/
+header {
+    background: #0D1B2A;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+/*Projects
+--------------------------------*/
+.projects {
+    background: #FEE9E1;
+    padding: 10px;
+}
+.projects .btn {
+    color: whitesmoke;
+    background: #64B6AC;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgb(100, 182, 172, 80%);
+}
+
+/*Education
+--------------------------------*/
+.education {
+    background: #C0FDFB;
+    padding: 8px;
+}
+
+
+/*Contact Info
+--------------------------------*/
+footer {
+    background: #64B6AC;
+    color: whitesmoke;
+    padding: 8px;
+}
+ 
