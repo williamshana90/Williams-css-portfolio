@@ -1,0 +1,80 @@
+/*
+Color Palette
+https://coolors.co/fffd82-ef8354-ee4b6a-df3b57-66a4a5
+
+
+GitHub Link https://github.com/williamshana90/Williams-css-portfolio/commit/5452a1873339fa9b5cf8e3e567351d3a607de293
+*/
+
+
+
+/* Global Styles
+--------------------------------*/
+body {
+    color: #343434;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+img {
+width: 300px;
+}
+a {
+    color: #0D1B2A;
+}
+a:hover {
+    text-decoration: none;
+}
+h2 {
+    margin:0;
+}
+.content-wrap {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*Profile
+--------------------------------*/
+header {
+    background: #0F7173;
+    color: #FFFD82;
+    padding: 8px;
+}
+
+/*Projects
+--------------------------------*/
+.projects {
+    background: #FFFD82;
+    padding: 10px;
+    color: #0F7173
+}
+.projects .btn {
+    color: whitesmoke;
+    background: #0F7173 ;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgb(15,113,115,80%);
+}
+
+/*Education
+--------------------------------*/
+.education {
+    background: #66A4A5;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+
+/*Contact Info
+--------------------------------*/
+footer {
+    background: #0F7173;
+    color: #FFFD82;
+    padding: 8px;
+}
+ 
