@@ -56,7 +56,7 @@ h2 {
 header {
     background: #2EC4B6;
     color: #FFFFFF;
-    padding: 8px;
+    padding: 0px;
 }
 
 /*Projects
@@ -105,3 +105,4 @@ footer {
     color: #FFBF69;
     padding: 8px;
 }
+
