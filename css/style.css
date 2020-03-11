@@ -1,7 +1,4 @@
 
-
-
-
 /* Global Styles
 --------------------------------*/
 html {
@@ -50,6 +47,35 @@ h2 {
               margin: 0;
               text-shadow: 3px 5px 10px #000;
 		  }
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: #2EC4B6;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover {
+  background-color: #CBF3F0;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: block;
+}
 
 /*Profile
 --------------------------------*/
@@ -89,20 +115,92 @@ header {
 			  margin-top: 0;
 		  }
 
+/*Work Eperience
+--------------------------------*/
+
+.work-experience {
+    background: #2EC4B6;
+	color: #FFBF69;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
 /*Education
 --------------------------------*/
 .education {
-    background: #CBF3F0;
+    background: #2EC4B6;
     color:#FFBF69;
     padding: 8px;
 }
 
-
 /*Contact Info
 --------------------------------*/
-footer {
+.footer {
     background: #2EC4B6;
     color: #FFBF69;
     padding: 8px;
+	margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+		
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=submit] {
+  background-color: #FFBF69;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+
+.container {
+  background-color: #2EC4B6;
+  padding: 0px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 15%;
+  margin: 6px;
+}
+
+
+.col-75 {
+  float: left;
+  width: 50%;  
+ margin: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
